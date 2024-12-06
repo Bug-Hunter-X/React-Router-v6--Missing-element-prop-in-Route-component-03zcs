@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Router v6: forgetting to include the `element` prop in a Route component.  The error occurs because React Router expects a React component to render at the route and fails if it's not present. The solution shows how to correctly add the `element` prop to each `Route` to avoid this error.
